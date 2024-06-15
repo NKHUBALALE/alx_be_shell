@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami
+awk 'BEGIN {print ENVIRON["USER"]}'
